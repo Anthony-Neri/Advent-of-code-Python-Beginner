@@ -43,9 +43,6 @@ for y in range(len(maj_array)):
                     maj_array[y][x+1] = b
 
 
-
-
-            #print(maj_array[y][x],numberIsGood)
             if numberIsGood:
                 numberGood+=1
 
