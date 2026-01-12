@@ -1,5 +1,4 @@
 def extract_data_file(file):
-    # Lit toutes les lignes du fichier
     with open(file, 'r', encoding='utf-8') as f:
         return f.read().splitlines()
 
