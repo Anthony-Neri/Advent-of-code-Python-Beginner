@@ -51,7 +51,7 @@ def solve_part1(filename):
 
             new_score = score + 1
             next_state = (ny, nx ,d)
-            old_score = distances.get(next_state, float("inf")) # SI la clé next_state n'existe pas, valeur retournée infinie
+            old_score = distances.get(next_state, float("inf"))
             
             if new_score < old_score : 
                 distances[next_state] = new_score
